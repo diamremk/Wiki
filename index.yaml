@@ -24,3 +24,7 @@ template:
 
   # If you are hosting on GitLab Pages, you may want to remove this.
   urlStrategy: pretty
+page:
+  pandoc:
+    filters:
+      - lua-filters/list-table.lua
