@@ -16,3 +16,8 @@ If you only want to edit an existing page, simply hit the ![[edit-icon.svg]] but
 ### Creating a new page
 
 Navigate to the [Github repository](https://github.com/BMI-UC/Wiki) and hit the "add file" button. Add the path to your new page at the top of the window in this format: `path/to/my/file.md`.
+
+### Wiki Contributors team guidelines
+
+- For small changes like typos, you may bypass the branch protections and commit your changes directly to the main branch.
+- For large changes, please use the "create a new branch" setting when committing your changes. This way, someone can review your changes before adding them to the wiki.
