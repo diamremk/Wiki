@@ -3,6 +3,7 @@
 
 page:
   siteTitle: Biomedical Informatics Wiki
+  
   headHtml: |
     <snippet var="js.highlightjs" />
 
