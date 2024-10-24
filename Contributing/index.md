@@ -17,6 +17,8 @@ title: "Contributing"
 > [!note]
 > If are not a member of the [wiki contributors team](https://github.com/orgs/BMI-UC/teams/wiki-contributors), you will have to create a fork of the wiki before contributing.
 
+The wiki uses Markdown, a very simple markup language designed to make editing as easy as possible. See [[markdown]] for more details.
+
 ### Editing an Existing Page
 
 If you only want to edit an existing page, simply hit the ![[edit-icon.svg]] button at the bottom of the page. This will take you to a Github page corresponding to the current file.
@@ -33,5 +35,3 @@ Navigate to the [Github repository](https://github.com/BMI-UC/Wiki) and hit the 
 ### Contributing while not being a member
 
 When trying to commit changes, you will be prompted by Github to "fork this repository". Once you do that, you can freely make as many changes as you want to your own copy of the wiki. Once you are satisfied with your changes, you can create a pull request using the [Pull Requests](https://github.com/BMI-UC/Wiki/pulls) tab of the Github repository for the wiki. If you need help, contact [David Lewis](mailto:lewis3d7@mail.uc.edu)
-
-
