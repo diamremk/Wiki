@@ -3,9 +3,10 @@
 
 page:
   siteTitle: Biomedical Informatics Wiki
-  
+
   headHtml: |
     <snippet var="js.highlightjs" />
+    <snippet var="js.katex" />
 
 template:
   theme: green
@@ -25,4 +26,3 @@ template:
 
   # If you are hosting on GitLab Pages, you may want to remove this.
   urlStrategy: pretty
-
