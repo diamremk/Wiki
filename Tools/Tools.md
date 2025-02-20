@@ -9,7 +9,6 @@ You should be familiar with the following programminmg languages:
 - R
 - Python
 - Shell Scripting on Linux (Bash/Zsh)
-- perl
 
 Optional, but knowing these languages would also be helpful:
 - Perl (lots of legacy code uses this)
