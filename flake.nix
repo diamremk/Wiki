@@ -1,7 +1,8 @@
 {
   nixConfig = {
     extra-substituters = "https://cache.garnix.io";
-    extra-trusted-public-keys = "cache.garnix.io:CTFPyKSLcx5RMJKfLo5EEPUObbA78b0YQ2DTCJXqr9g=";
+    extra-trusted-public-keys =
+      "cache.garnix.io:CTFPyKSLcx5RMJKfLo5EEPUObbA78b0YQ2DTCJXqr9g=";
   };
 
   inputs = {
@@ -20,17 +21,18 @@
           # By default, the 'emanote' flake input is used.
           # package = inputs.emanote.packages.${system}.default;
           sites."default" = {
-            layers = [{ path = ./.; pathString = "."; }];
+            layers = [{
+              path = ./.;
+              pathString = ".";
+            }];
             # port = 8080;
-            baseUrl = "/Wiki/"; # Change to "/" (or remove it entirely) if using CNAME
+            baseUrl =
+              "/Wiki/"; # Change to "/" (or remove it entirely) if using CNAME
             # prettyUrls = true;
           };
         };
-        devShells.default = pkgs.mkShell {
-          buildInputs = [
-            pkgs.nixpkgs-fmt
-          ];
-        };
+        devShells.default =
+          pkgs.mkShell { buildInputs = [ pkgs.nixpkgs-fmt ]; };
         formatter = pkgs.nixpkgs-fmt;
       };
     };
