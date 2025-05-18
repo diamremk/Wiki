@@ -1,0 +1,13 @@
+figure{
+    display: grid;
+    justify-items: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+figure img{
+    border: 0.2em solid darkgreen;
+    border-radius: 1em;
+    padding: 1em;
+    margin-bottom: 0.2em;
+}
+
