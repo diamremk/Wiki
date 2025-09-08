@@ -1,5 +1,5 @@
 # Welcome to the Biomedical Informatics Wiki!
-
+Git presentation is fun!
 ## Want to contribute?
 visit [[Contributing]] for more information.
 
